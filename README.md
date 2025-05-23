@@ -1,6 +1,6 @@
 # [Hide Paywall Bot](https://telegram.me/hidewallbot)
 
-> This Telegram bot removes paywall from articles, using [12ft](https://12ft.io/) and [1ft](https://1ft.io/) services.
+> This Telegram bot removes paywall from articles, using [12ft](https://12ft.io/) and [Marreta](https://marreta.pcdomanual.com/) services.
 
 ## Usage
 
