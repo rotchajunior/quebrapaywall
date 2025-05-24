@@ -38,7 +38,7 @@ export const handleInlineQuery = (bot: Telegraf) => {
         type: "article",
         id: queryHash,
         title: title || "Title unavailable",
-        description: "Tap here to generate links",
+        description: "Clique ou toque aqui para gerar o link",
         thumbnail_url: image || "",
         input_message_content: {
           message_text: getMessageText(query),

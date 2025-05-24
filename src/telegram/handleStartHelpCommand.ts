@@ -5,14 +5,14 @@ import type { Telegraf } from "telegraf";
 export const handleStartHelpCommand = (bot: Telegraf) => {
   bot.command(["start", "help"], (ctx) => {
     let text =
-      "This bot removes paywall from articles, using <b>12ft</b> and <b>Marreta</b> services.\n\n";
-    text += "<b>Usage</b> ❓\n";
+      "Esse bot remove o paywall de sites , usando o <b>Marreta</b> e o <b>12ft</b> .\n\n";
+    text += "<b>Como usar</b> ❓\n";
     text +=
-      "You can use this tool by pasting a valid link in this bot's private chat, or in any chat you want, using inline mode, like this:\n\n";
+      "Para uso como chat, apenas envie um link de matéria, para usar em grupos chame o bot, como no exemplo abaixo:\n\n";
     text += "<pre>@quebrapaywall_bot [URL]</pre>\n\n";
-    text += "<b>Contribute</b>  📖\n";
+    text += "<b>Como contribuir</b>  📖\n";
     text +=
-      'This bot is free and open source, licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>. You can explore and contribute to the source code by tapping the button below.';
+      'Esse é um bot é um fork de <a href="https://github.com/TheEdoRan/hidewallbot"> hidewallbot </a>, que segue a licença <a href="https://opensource.org/licenses/MIT">MIT license</a>. Você pode criar um fork, melhorar o código ou fazer o que quiser com ele.';
 
     return ctx
       .reply(text, {

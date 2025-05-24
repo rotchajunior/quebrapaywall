@@ -19,13 +19,14 @@ export const buildArticleMarkupKeyboard = (query: string) =>
 export const buildCommandMarkupKeyboard = () =>
   Markup.inlineKeyboard([
     [
-      Markup.button.url("🔗 Open 12ft", "https://12ft.io/"),
-      Markup.button.url("🔗 Abrir no Marreta", "https://marreta.pcdomanual.com/"),
+      Markup.button.url("🔗 Abrir 12ft", "https://12ft.io/"),
+      Markup.button.url("🔗 Abrir Marreta", "https://marreta.pcdomanual.com/"),
+      Markup.button.url("🔗 Acesse Crise Crise Crise", "https://crise.love/"),
     ],
     [
       Markup.button.url(
-        "🔗 View source code",
-        "https://github.com/TheEdoRan/hidewallbot",
+        "🔗 Veja o código fonte e altere como quiser",
+        "https://github.com/rotchajunior/quebrapaywall",
       ),
     ],
   ]);
